@@ -10,17 +10,23 @@ class Header extends React.Component{
 <header className="wrapper bg-soft-primary">
   <nav className="navbar classic navbar-expand-lg navbar-dark navbar-bg-dark">
     <div className="container flex-lg-row flex-nowrap align-items-center">
-      <div className="navbar-brand w-100"><NavLink to="/"><img src="src/img/logo.png" srcSet="src/img/logo-light@2x.png 2x" alt="" /></NavLink></div>
+      <div className="navbar-brand w-100"><a href="/"><img src="src/img/logo.png"  alt /></a></div>
       <div className="navbar-collapse offcanvas-nav">
         <div className="offcanvas-header d-lg-none d-xl-none">
-          <NavLink to="/"><img src="src/img/logo-light.png" srcSet="src/img/logo.png 2x" alt="" /></NavLink>
+          <a href="/"><img src="src/img/logo-light.png"  alt /></a>
           <button type="button" className="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close" />
         </div>
         <ul className="navbar-nav">
-          <li className="nav-item "><NavLink className="nav-link" to="/">Home</NavLink></li>
-          <li className="nav-item "><NavLink className="nav-link" to="about">About</NavLink></li>
-          <li className="nav-item "><NavLink className="nav-link" to="services">Service</NavLink></li>
-          <li className="nav-item "><NavLink className="nav-link" to="faq">Faq</NavLink></li>
+          <li className="nav-item "><NavLink className="nav-link" exact activeClassName="active-link" to="/">Home</NavLink></li>
+          <li className="nav-item "><NavLink className="nav-link"  to="about">About</NavLink></li>
+          <li className="nav-item dropdown"><a className="nav-link dropdown-toggle "  >Service</a>
+            <ul className="dropdown-menu">
+              <li className="nav-item"><NavLink className="dropdown-item" to="easyclaims">EasyCLAIMS</NavLink></li>
+              <li className="nav-item"><NavLink className="dropdown-item" to="easylegal">EasyLEGAL</NavLink></li>
+              <li className="nav-item"><NavLink className="dropdown-item" to="easyportfolio">EasyPortfolio</NavLink></li>
+            </ul>
+          </li>
+          <li className="nav-item "><NavLink className="nav-link" to="faqs">Faqs</NavLink></li>
           <li className="nav-item "><NavLink className="nav-link" to="blog">Blog</NavLink></li>
           <li className="nav-item "><NavLink className="nav-link" to="contact">Contact</NavLink></li>
         </ul>

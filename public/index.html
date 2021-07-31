@@ -6,8 +6,32 @@
 
     <link rel="shortcut icon" href="src/img/favicon.png">
     <title>Easy Inherit</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="src/css/plugins.css">
     <link rel="stylesheet" href="src/css/theme/blue.css">
+    <style>
+      div{ posititon: relative; }
+.other-text{ 
+  position: absolute;
+  margin-top: -23px;
+  color: #3f78e0;
+
+}
+.other-text:nth-child(1){ animation-name: fade; animation-fill-mode: both; animation-iteration-count: infinite; animation-duration: 3s; animation-direction: alternate-reverse;  }
+.other-text:nth-child(2){animation-name: fade;animation-fill-mode: both;animation-iteration-count: infinite;animation-duration: 3s;animation-direction: alternate;}
+
+@keyframes fade{
+    0%,50% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -35,6 +59,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="src/js/plugins.js"></script>
     <script src="src/js/scripts.js"></script>
+
+
+
 
   </body>
 </html>

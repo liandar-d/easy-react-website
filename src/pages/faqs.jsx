@@ -4,22 +4,23 @@ import Footer from './footer';
 import { BrowserRouter as Router, NavLink} from "react-router-dom";
 
 
-class Faq extends React.Component{
+class Faqs extends React.Component{
     render() {
+      window.scrollTo(0, 0);
+
         return ( 
 
 <div>
   <div className="content-wrapper">
-    < Header />
     <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="src/img/photos/bg3.jpg" style={{backgroundImage: 'url("src/img/photos/bg3.jpg")'}}>
       <div className="container pt-17 pb-15 pt-md-14 pb-md-14 text-center">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h1 className="display-1 mb-3 text-white">FAQ</h1>
+            <h1 className="display-1 mb-3 text-white">FAQs</h1>
             <nav className="d-inline-block" aria-label="breadcrumb">
               <ol className="breadcrumb text-white">
                 <li className="breadcrumb-item"><a href="#">Home</a></li>
-                <li className="breadcrumb-item active" aria-current="page">FAQ</li>
+                <li className="breadcrumb-item active" aria-current="page">FAQs</li>
               </ol>
             </nav>
             {/* /nav */}
@@ -165,7 +166,6 @@ class Faq extends React.Component{
     </section>
   </div>
   {/* /.content-wrapper */}
-< Footer />
 
 </div>
 
@@ -174,4 +174,4 @@ class Faq extends React.Component{
     }
 }
 
-export default Faq;
+export default Faqs;

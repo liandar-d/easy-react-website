@@ -5,12 +5,14 @@ import { BrowserRouter as Router, NavLink} from "react-router-dom";
 
 
 class Contact extends React.Component{
+  
     render() {
+      window.scrollTo(0, 0);
+
         return ( 
 
 <div>
   <div className="content-wrapper">
-    < Header />
     <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="src/img/photos/bg3.jpg" style={{backgroundImage: 'url("src/img/photos/bg3.jpg")'}}>
       <div className="container pt-17 pb-15 pt-md-14 pb-md-14 text-center">
         <div className="row">
@@ -84,7 +86,7 @@ class Contact extends React.Component{
                       {/* /column */}
                       <div className="col-md-6">
                         <div className="form-label-group mb-4">
-                          <input id="form_phone" type="tel" name="phone" className="form-control" placeholder="Your phone number" />
+                          <input id="form_phone" type="tel" name="phone" className="form-control" placeholder="Your phone number" required="required" data-error="Phone number is required."/>
                           <label htmlFor="form_phone">Phone</label>
                           <div className="help-block with-errors" />
                         </div>
@@ -161,7 +163,6 @@ class Contact extends React.Component{
     </section>
   </div>
   {/* /.content-wrapper */}
-< Footer />
 
 </div>
 

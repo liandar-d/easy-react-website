@@ -1,9 +1,4 @@
-/*!
-Theme Name: Sandbox - Modern & Multipurpose Bootstrap 5 Template
-Theme URI:	http://themes.iki-bir.com/sandbox/start.html
-Version:	1.0.2
-Author:		elemis
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800");
 :root {
   --bs-blue: #3f78e0;
@@ -114,6 +109,11 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+
+}
+.blue-names {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 abbr[title],
@@ -461,7 +461,7 @@ progress {
 
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 2.4rem;
+    font-size: 2 rem;
   }
 }
 
@@ -1448,7 +1448,7 @@ progress {
   }
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33333%;
+    width: 31.33333%;
   }
   .col-md-5 {
     flex: 0 0 auto;
@@ -1811,6 +1811,7 @@ progress {
   .col-lg-12 {
     flex: 0 0 auto;
     width: 100%;
+    margin-left: 29px;
   }
   .offset-lg-0 {
     margin-left: 0;
@@ -7126,7 +7127,7 @@ textarea.form-control-lg {
 }
 
 .mb-9 {
-  margin-bottom: 2.25rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .mb-10 {
@@ -13051,7 +13052,7 @@ textarea.form-control-lg {
     padding-top: 3.5rem !important;
   }
   .pt-md-13 {
-    padding-top: 4rem !important;
+    padding-top: 2.5rem !important;
   }
   .pt-md-14 {
     padding-top: 4.5rem !important;
@@ -13207,7 +13208,7 @@ textarea.form-control-lg {
     padding-bottom: 3.5rem !important;
   }
   .pb-md-13 {
-    padding-bottom: 4rem !important;
+    padding-bottom: 2.5rem !important;
   }
   .pb-md-14 {
     padding-bottom: 4.5rem !important;
@@ -21623,7 +21624,7 @@ h6, .h6 {
 }
 
 .lead.fs-lg {
-  font-size: 1.05rem;
+  font-size: 0.8rem;
   line-height: 1.6;
 }
 
@@ -22016,6 +22017,9 @@ figure img {
 .bg-pale-red {
   background-color: #fae6e7 !important;
 }
+.bg-pale-gry {
+  background-color: #f5f5f5  !important;
+}
 
 .bg-pale-orange {
   background-color: #feece9 !important;
@@ -22035,6 +22039,12 @@ figure img {
 
 .bg-pale-aqua {
   background-color: #e4f1f6 !important;
+}
+.greenn {
+  background-color: #7dedb1 !important;
+}
+.bluee {
+  background-color: #8db3f9 !important;
 }
 
 .bg-pale-navy {
@@ -22760,6 +22770,9 @@ figure img {
 .link-aqua {
   color: #54a8c7;
 }
+.link-aquaa {
+  color: #3a3a3a;
+}
 
 .link-aqua:hover, .link-aqua:focus {
   color: #54a8c7;
@@ -22928,7 +22941,7 @@ blockquote.text-center.icon-top:before {
 }
 
 .blockquote-details .info {
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 
 .blockquote-details .icon-img img {
@@ -28731,9 +28744,18 @@ button.hamburger.animate.active:after {
   width: 2.5rem;
   height: 2.5rem;
 }
+
 .icon-svg.icon-svg-ss {
   width: 4rem;
   height: 4rem;
+}
+.icon-svg.icon-svg-img {
+  width: 100%;
+  height: 100%;
+}
+.icon-svg.icon-svg-imgg {
+  width: 20%;
+  height: 100%;
 }
 
 .svg-fill {
@@ -34211,8 +34233,7 @@ video.player {
 }
 
 .pricing-wrapper [class*="col-"] .pricing.card .card-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+
   margin-left: 0px;
   margin-right: auto;
 }
@@ -34242,7 +34263,7 @@ video.player {
 
 @media (min-width: 1200px) {
   .pricing-wrapper [class*="col-"] .pricing.card .prices .price-value {
-    font-size: 2rem;
+    font-size: 30px;
   }
 }
 
@@ -35197,3 +35218,9 @@ footer.bg-dark.angled.lower-start:after, footer.bg-dark.angled.upper-start:befor
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.txt-al {
+  text-align: initial;
+}
+
+
