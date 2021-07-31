@@ -21,10 +21,10 @@ class Home extends React.Component{
           <h1 className="display-1 mb-5 mx-md-10 mx-lg-0">One stop Claims Solution for<br />
           </h1>
           <h1 className=" display-1 mb-5 mx-md-10 mx-lg-0 ">
-          <span class="other-text">Inheritance claims</span>
-          <span class="other-text">Succession Planning</span>
+          <span className="other-text">Inheritance Claims</span>
+          <span className="other-text">Succession Planning</span>
           </h1> <br /> <br />
-          <p className="lead fs-lg mb-7">Achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.</p>
+          <p className="lead fs-lg  mb-7">Achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.</p>
           <div className="animate__animated animate__slideInDown d-flex justify-content-center justify-content-lg-start" >
             <span><NavLink to="easyportfolio" className="btn btn-lg btn-primary rounded me-2">Start Free Portfolio</NavLink></span>
           </div>
@@ -43,10 +43,10 @@ class Home extends React.Component{
     {/* /.container */}
   </section>
   <section className="wrapper bg-light">
-    <div className="container pt-14 pt-md-16">
+    <div className="container pt-md-16">
       <div className="row text-center">
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-          <h3 className="display-4 mb-10 px-xl-10">Our Services</h3>
+          <h3 className="display-4 px-xl-10">Our Services</h3>
         </div>
         {/* /column */}
       </div>
@@ -158,8 +158,6 @@ class Home extends React.Component{
                 <li><span><i className="uil uil-check" /></span><span>Aenean quam ornare. Curabitur blandit.</span></li>
                 <li className="mt-3"><span><i className="uil uil-check" /></span><span>Nullam quis risus eget urna mollis ornare.</span></li>
               </ul>
-              <br />
-              <NavLink to="easyportfolio" className="btn btn-primary me-1 mb-2 mb-md-0">Get Started Now</NavLink>
             </div>
             {/*/column */}
             <div className="col-xl-6">
@@ -167,6 +165,10 @@ class Home extends React.Component{
                 <li><span><i className="uil uil-check" /></span><span>Etiam porta euismod malesuada mollis.</span></li>
                 <li className="mt-3"><span><i className="uil uil-check" /></span><span>Vivamus sagittis lacus vel augue rutrum.</span></li>
               </ul>
+              <br />
+              
+              <NavLink to="easyportfolio" className="btn btn-primary me-1 mb-2 mb-md-0">Get Started Now</NavLink>
+
             </div>
             {/*/column */}
           </div>
@@ -208,7 +210,6 @@ class Home extends React.Component{
             </div>
             {/*/.card-body */}
           </div>
-          <NavLink to="easyclaims" className="btn btn-primary me-1 mb-2 mb-md-0">Get Started Now</NavLink>
         </div>
         {/* /column */}
         <div className="col-md-4 col-lg-4">
@@ -220,6 +221,8 @@ class Home extends React.Component{
             </div>
             {/*/.card-body */}
           </div>
+          <NavLink to="easyclaims" className="btn btn-primary ml-12-lx me-1 mb-2 mb-md-0">Get Started Now</NavLink>
+
         </div>
         {/* /column */}
       </div>

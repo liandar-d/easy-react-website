@@ -23,7 +23,7 @@ class Header extends React.Component{
             <ul className="dropdown-menu">
               <li className="nav-item"><NavLink className="dropdown-item" to="easyclaims">EasyCLAIMS</NavLink></li>
               <li className="nav-item"><NavLink className="dropdown-item" to="easylegal">EasyLEGAL</NavLink></li>
-              <li className="nav-item"><NavLink className="dropdown-item" to="easyportfolio">EasyPortfolio</NavLink></li>
+              <li className="nav-item"><NavLink className="dropdown-item" to="easyportfolio">EasyPORTFOLIO</NavLink></li>
             </ul>
           </li>
           <li className="nav-item "><NavLink className="nav-link" to="faqs">Faqs</NavLink></li>

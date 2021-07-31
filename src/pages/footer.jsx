@@ -32,8 +32,8 @@ class Footer extends React.Component{
           <h4 className="widget-title mb-3 text-white">Services</h4>
           <ul className="list-unstyled mb-0">
             <li><NavLink to="easylegal">EasyLEGAL</NavLink></li>
-            <li><NavLink to="easycliams">EasyCLAIMS</NavLink></li>
-            <li><NavLink to="easyportfolio">EasyPortfolio</NavLink></li>
+            <li><NavLink to="easyclaims">EasyCLAIMS</NavLink></li>
+            <li><NavLink to="easyportfolio">EasyPORTFOLIO</NavLink></li>
           </ul>
         </div>
         {/* /.widget */}

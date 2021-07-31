@@ -5951,6 +5951,7 @@ textarea.form-control-lg {
 
 .w-auto {
   width: auto !important;
+  
 }
 
 .w-0 {
@@ -11987,6 +11988,11 @@ textarea.form-control-lg {
   }
   .mb-md-0 {
     margin-bottom: 0 !important;
+    margin-left: -257px;
+  }
+  .ml-12-lx {
+    margin-left: -877px;
+
   }
   .mb-md-1 {
     margin-bottom: 0.25rem !important;
@@ -12945,8 +12951,8 @@ textarea.form-control-lg {
     padding-bottom: 2.25rem !important;
   }
   .py-md-10 {
-    padding-top: 2.5rem !important;
-    padding-bottom: 2.5rem !important;
+    padding-top: 0px!important;
+    padding-bottom: 0px !important;
   }
   .py-md-11 {
     padding-top: 3rem !important;
@@ -12969,8 +12975,8 @@ textarea.form-control-lg {
     padding-bottom: 5rem !important;
   }
   .py-md-16 {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
   .py-md-17 {
     padding-top: 7rem !important;
@@ -13061,7 +13067,8 @@ textarea.form-control-lg {
     padding-top: 5rem !important;
   }
   .pt-md-16 {
-    padding-top: 6rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
   }
   .pt-md-17 {
     padding-top: 7rem !important;
